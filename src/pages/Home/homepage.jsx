@@ -14,7 +14,7 @@ const HomePageComponent = () => {
     const fetchAllMovies = async () => {
       try {
         const response = await fetchData(`discover/movie`);
-        setMovieList(response.data);
+        setMovieList(response.results);
         setLoading(false);
       } catch (error) {
         setLoading(false);
