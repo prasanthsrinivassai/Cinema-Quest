@@ -1,0 +1,89 @@
+.movieDetails {
+  padding: 40px;
+  font-family: "Trebuchet MS", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f6f8fa, #e9ecef);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 48px;
+  color: #343a40;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.poster {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.movieInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.movieInfo p {
+  flex: 1 1 300px;
+  font-size: 18px;
+  color: #495057;
+}
+
+.genres {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.rating {
+  background-color: #ffc107;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.favoriteButton {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.favoriteButton:hover {
+  background-color: #ff4f4f;
+}
+
+@media (max-width: 768px) {
+  .movieInfo {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .movieInfo p {
+    font-size: 16px;
+  }
+}
