@@ -1,19 +1,41 @@
 .container {
-  padding: 20px;
-  font-family: Arial, sans-serif;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 .searchInput {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.suggestionsDropdown {
+    position: grid;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.suggestionItems {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: grid;
+}
+
+.suggestionItem:hover {
+    background-color: #f0f0f0;
 }
 
 .moviesGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
 }

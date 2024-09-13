@@ -1,27 +1,27 @@
 .movieCard {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
 }
 
 .movieImage {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .movieTitle {
-  margin: 10px 0;
-  font-size: 18px;
+    margin: 10px 0;
+    font-size: 18px;
 }
 
 .movieDate {
-  font-size: 14px;
-  color: #666;
+    font-size: 14px;
+    color: #666;
 }
 
 .movieRating {
-  font-size: 14px;
-  color: #333;
+    font-size: 14px;
+    color: #333;
 }

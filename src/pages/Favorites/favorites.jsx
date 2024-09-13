@@ -1,3 +1,4 @@
+//pages/Favorites/favorites.jsx
 import React, { useEffect, useState } from "react";
 import { getFavoriteMovies } from "../../utils/localStorage";
 import MovieList from "../MovieList/movie-list";
